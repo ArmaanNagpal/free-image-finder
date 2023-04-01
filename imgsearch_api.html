@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image Finder</title>
+	<link rel="stylesheet" type="text/css" href="imgsearch_api.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="search">
+	<h1>Image Finder</h1>
+	<input type="text" id="word" placeholder="Type Here" autofocus>
+	<button class="searchbutton" id="Btn1" onclick="love(pagenr)">Search</button>
+
+	<div class="themebtn">
+		<button class="dark">Dark Theme</button>
+		<button class="light">Light Theme</button>
+	</div>
+</div>
+
+<div id="gallery">
+		<div class="waviy">
+			<div style="color: red;">	
+			    <span style="--i:1;color: red;font-size: 70px;">n</span>
+			    <span style="--i:2;color: red;font-size: 70px;">o</span>
+			    <span style="--i:3;color: red;font-size: 70px;">w&nbsp</span></div>
+			<div>   
+			    <span style="--i:4;color: blue;">g</span>
+			    <span style="--i:5;color: blue;">e</span>
+			    <span style="--i:6;color: blue;">t&nbsp</span></div>
+			<div>
+			    <span style="--i:7">c</span>
+			    <span style="--i:8">o</span>
+			    <span style="--i:9">p</span>
+			    <span style="--i:10">y</span>
+			    <span style="--i:11">r</span>
+			    <span style="--i:12">i</span>
+			    <span style="--i:13">g</span>
+			    <span style="--i:14">h</span>
+			    <span style="--i:15">t</span>
+			    <span style="--i:16">-</span>
+			    <span style="--i:17">f</span>
+			    <span style="--i:18">r</span>
+			    <span style="--i:19">e</span>
+			    <span style="--i:20">e&nbsp</span>
+
+			    <span style="--i:21">i</span>
+			    <span style="--i:22">m</span>
+			    <span style="--i:23">a</span>
+			    <span style="--i:24">g</span>
+			    <span style="--i:25">e</span>
+			    <span style="--i:26">s</span></div>
+
+			    <span style="--i:27">o</span>
+			    <span style="--i:28">n&nbsp</span>
+			    <span style="--i:29">t</span>
+			    <span style="--i:30">h</span>
+			    <span style="--i:31">e&nbsp</span>
+			    <span style="--i:32;color: red;font-size: 70px;">c</span>
+			    <span style="--i:33;color: red;font-size: 70px;">l</span>
+			    <span style="--i:34;color: red;font-size: 70px;">i</span>
+			    <span style="--i:35;color: red;font-size: 70px;">c</span>
+			    <span style="--i:36;color: red;font-size: 70px;">k&nbsp</span>
+			<div>
+			    <span style="--i:37">o</span>
+			    <span style="--i:38">f&nbsp</span>
+			    <span style="--i:39">a</span></div>
+			    <button id="btnforshow" disabled>
+			    	<span style="--i:40">b</span>
+				    <span style="--i:41">u</span>
+				    <span style="--i:42">t</span>
+				    <span style="--i:43">t</span>
+				    <span style="--i:44">o</span>
+				    <span style="--i:45">n</span>
+				</button>
+	    </div>
+</div>
+
+<div class="pgbtn">
+	<button type="button" class="btn btn-outline-primary prev" onclick="prevpg()">Prev Page</button>
+	<p id="demo"><span id="demo1"></span><span id="demo2"></span> </p>
+	<button type="button" class="btn btn-outline-primary next" onclick="nextpg()">Next Page</button>
+</div>
+
+
+<script type="text/javascript" src="E:\Web Dev files\jquery-3.6.3.min.js"></script>
+<script src="imgsearch_api.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
